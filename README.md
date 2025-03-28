@@ -1,6 +1,21 @@
-# AngularRoutesFormsExamples
+# Week12ThuFormsRoutes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
+
+## Setting Up Environment Variables for an Angular Application
+
+### Configuring application environments
+You can define different named build configurations for your project, such as `development`, `pilot`, `uat` and `staging`, with different defaults.
+
+Using the Angular CLI, start by running the generate environments command shown here to create the `src/environments/` directory and configure the project to use these files.
+
+```
+  ng generate environments
+```
+  
+The project’s `src/environments/` directory contains the base configuration file, `environment.ts`, which provides configuration for production, the default environment. You can override default values for additional environments, such as `development`, `pilot`, `uat` ,`staging`, and `productionin` target-specific configuration files.
+
+[Setting Up Environment Variables for an Angular Application from Scratch](https://medium.com/@philip.mutua/setting-up-environment-variables-for-an-angular-application-from-scratch-737028f8b7b3)
 
 ## Development server
 
